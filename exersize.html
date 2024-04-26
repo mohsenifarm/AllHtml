@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/...">
+        <p>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required>
+        </p>
+        <p>
+            <h3>Select a Race</h3>
+            <label for="fun">Fun Run 5k</label>
+            <input type="radio" id="fun" name="race" value="fun">
+            <br>
+            <label for="half">Half Marathon</label>
+            <input type="radio" id="half" name="race" value="half">
+            <br>
+            <label for="full">Full Marathon</label>
+            <input type="radio" id="full" name="race" value="full">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="kids">under18</option>
+                <option value="yongerAdults">18-30</option>
+                <option value="adults">30-50</option>
+                <option value="seniors">+50</option>
+            </select>
+        </p>
+        <button>Register</button>
+    </form>
+    <h3><a href="index1.html">Back</a></h3>
+</body>
+</html>
